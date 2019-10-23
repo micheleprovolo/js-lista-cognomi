@@ -17,5 +17,9 @@ list.push(askSurname);
 console.log(list);
 
 //stampo la lista ordinata alfabeticamente
-list.sort()
+list.sort();
 console.log(list);
+
+//stampo posizione della lista in cui il nuovo utente si trova
+var position = list.indexOf(askSurname);
+console.log(position);
